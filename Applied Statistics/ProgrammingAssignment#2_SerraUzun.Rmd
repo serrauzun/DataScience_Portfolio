@@ -1,0 +1,499 @@
+---
+title: 'Programming with R Assignment #2 (75 points)'
+author: "Uzun, Serra"
+output:
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+# DO NOT ADD OR REVISE CODE HERE
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE)
+```
+
+### Instructions
+
+R markdown is a plain-text file format for integrating text and R code, and creating transparent, reproducible and interactive reports. An R markdown file (.Rmd) contains metadata, markdown and R code "chunks", and can be "knit" into numerous output types. Answer the test questions by adding R code to the fenced code areas below each item. Once completed, you will "knit" and submit the resulting .html file, as well the .Rmd file. The .html will include your R code *and* the output.
+
+**Before proceeding, look to the top of the .Rmd for the (YAML) metadata block, where the *title* and *output* are given. Please change *title* from 'Programming with R Test #2' to your name, with the format 'lastName_firstName.'**
+
+If you encounter issues knitting the .html, please send an email via Canvas to your TA.
+
+Each code chunk is delineated by six (6) backticks; three (3) at the start and three (3) at the end. After the opening ticks, arguments are passed to the code chunk and in curly brackets. **Please do not add or remove backticks, or modify the arguments or values inside the curly brackets**.
+
+Depending on the problem, grading will be based on: 1) the correct result, 2) coding efficiency and 3) graphical presentation features (labeling, colors, size, legibility, etc). I will be looking for well-rendered displays.  In the "knit" document, only those results specified in the problem statements should be displayed. For example, do not output - i.e. send to the Console - the contents of vectors or data frames unless requested by the problem.  You should be able to display each solution in fewer than ten lines of code.
+
+**Submit both the .Rmd and .html files for grading.**
+
+####  Please delete the Instructions shown above prior to submitting your .Rmd and .html files.
+
+-----
+
+### Test Items starts from here - There are 5 sections - 75 points total ##########################
+
+##### Section 1: (15 points) ##################################
+
+##### (1) R has probability functions available for use (Kabacoff, Section 5.2.3). Using one distribution to approximate another is not uncommon.
+
+(1)(a) (6 points) The Poisson distribution may be used to approximate the binomial distribution if n > 20 and np < 7. Estimate the following binomial probabilities using *dpois()* and *ppois()* with probability p = 0.05, and n = 100. Then, estimate the same probabilities using *dbinom()* and *pbinom()*.  Show the numerical results of your calculations.
+
+(i) The probability of exactly 0 successes.
+
+```{r test1ai}
+
+#poisson
+dpois(0,lambda = 5)
+ppois(0,lambda = 5)
+#binominal 
+dbinom(0,100,0.05)
+pbinom(0,100,0.05)
+
+```
+
+(ii) The probability of fewer than 6 successes.
+
+```{r test1aii}
+
+#poisson
+sum(dpois(0:5,lambda = 5))
+ppois(5,lambda = 5)
+
+#binominal 
+sum(dbinom(0:5,100,0.05))
+pbinom(5,100,0.05)
+
+```
+
+(1)(b) (3 points) Generate side-by-side barplots using *par(mfrow = c(1,2))* or *grid.arrange()*. The left barplot will show Poisson probabilties for outcomes ranging from 0 to 10. The right barplot will show binomial probabilities for outcomes ranging from 0 to 10. Use p = 0.05 and n = 100. Title each plot,  present in color and assign names to the bar; i.e. x-axis value labels.
+
+```{r test1b}
+#poisson prob
+d_poisson <-(dpois(0:10,lambda = 5))
+#binominal prob 
+d_binominal <-(dbinom(0:10,100,0.05))
+
+d_poisson
+d_binominal
+
+#plot
+par(mfrow=c(1,2))
+barplot(d_poisson,main ="Poisson Probability",col="purple",xlab = "Result",ylab ="Probability")
+barplot(d_binominal,main = "Binomial Probability",col = "orange",xlab = "Result", ylab = "Probability")
+
+```
+
+(1)(c) For this problem, refer to Sections 5.2 of Business Statistics. A discrete random variable has outcomes:  0, 1, 2, 3, 4, 5, 6.  The corresponding probabilities in sequence with the outcomes are: 0.215, 0.230, 0.240, 0.182, 0.130, 0.003, 0.001.  In other words, the probabilty of obtaining "0" is 0.215.  
+
+(i) (3 points) Calculate the expected value and variance for this distribution using the general formula for mean and variance of a discrete distribution. To do this, you will need to use integer values from 0 to 6 as outcomes along with the corresponding probabilities. Round your answer to 2 decimal places. 
+
+```{r test1ci}
+a<-0:6
+probability <- c(0.215, 0.230, 0.240, 0.182, 0.130, 0.003, 0.001)
+mean_a<-round(sum(a*probability),digits=2)
+mean_a
+#expected value of a
+
+
+var_a<-round(((sum((a^2)*probability))-(mean_a^2)),digits=2)
+var_a
+#variance of a
+```
+
+(ii) (3 points) Use the *cumsum()* function and plot the cumulative probabilties versus the corresponding outcomes.  Detemine the value of the median for this distribution and show on this plot.
+
+```{r test1cii}
+#cummulative probability 
+cummulative_prob <- cumsum(probability)
+cummulative_prob
+
+#plot
+plot(a,cummulative_prob,main = "Cumulative Prob. versus Corresp. Outcomes",xlab="outcomes",ylab="Cummulative prob", col = "blue", pch = 19)
+# text line for median 
+text(1.8,0.56,"Median is 1.8")
+
+```
+
+##### Section 2: (15 points) ##################################
+
+#####  (2) Conditional probabilities appear in many contexts and, in particular, are used by Bayes' Theorem. Correlations are another means for evaluating dependency between variables. The dataset "faithful"" is part of the "datasets" package and may be loaded with the statement *data(faithful)*. It contains 272 observations of 2 variables;  waiting time between eruptions (in minutes) and the duration of the eruption (in minutes) for the Old Faithful geyser in Yellowstone National Park.
+
+(2)(a) (3 points) Load the "faithful" dataset and present summary statistics and a histogram of waiting times.  Additionally, compute the empirical conditional probability of an eruption less than 3.0 minutes, if the waiting time exceeds 70 minutes.
+
+```{r test2a}
+
+data("faithful")
+#exploratory 
+summary(faithful)
+dim(faithful)
+#272 rows, 2 columns
+
+#histogram of waiting times
+hist(faithful$waiting, col = "pink", main = "Histogram of wait times", xlab = "Wait Times")
+
+#waiting time more than 70 mins
+waiting_above_70 <- faithful[faithful$waiting > 70,]
+waiting_above_70
+#eruption less than 3 mins
+erupt_below_3 <- waiting_above_70[waiting_above_70$eruptions < 3,]
+erupt_below_3
+#row 211 - eruptions = 2.383 & waiting = 71
+
+#compute conditional probability
+conditional_prob <-nrow(erupt_below_3)/nrow(waiting_above_70)
+conditional_prob 
+# 0.006060606
+
+```
+
+(i) (3 points) Identify any observations in "faithful" for which the waiting time exceeds 70 minutes and the eruptions are less than 3.0 minutes.  List and show any such observations in a distinct color on a scatterplot of all eruption (vertical axis) and waiting times (horizontal axis). Include a horizontal line at eruption = 3.0, and a vertical line at waiting time = 70.  Add a title and appropriate text. 
+
+```{r test2ai}
+
+plot(faithful$waiting, faithful$eruptions, main="Observations", xlab = "Waiting time",ylab = "Duration of the eruption", col = "dark blue", pch = 19)
+abline(h=3,v=70,col="red")
+
+```
+
+(ii) (1.5 point) What does the plot suggest about the relationship between eruption time and waiting time?
+
+***Answer: The scatter plot presents a positive correlation between duration of the eruptions and waiting time. Clusters in the lower and upper end of the correlation plot has also been observed, with a more scattered distribution in the mid range.    ***
+
+-----
+
+(2)(b) (4.5 points) Past research indicates that the waiting times between consecutive eruptions are not independent.  This problem will check to see if there is evidence of this. Form consecutive pairs of waiting times.  In other words, pair the first and second waiting times, pair the third and fourth waiting times, and so forth.  There are 136 resulting consecutive pairs of waiting times.  Form a data frame with the first column containing the first waiting time in a pair and the second column with the second waiting time in a pair. Plot the pairs with the second member of a pair on the vertical axis and the first member on the horizontal axis.
+
+One way to do this is to pass the vector of waiting times - faithful$waiting - to *matrix()*, specifying 2 columns for our matrix, with values organized by row; i.e. byrow = TRUE.
+
+```{r test2b}
+
+matrix_waiting <- matrix(faithful$waiting,ncol=2,byrow=TRUE)
+matrix_waiting
+
+plot(y=matrix_waiting[,2],x=matrix_waiting[,1], xlab = "Matrix Column #1", ylab = "Matrix Column #2", col="dark red", pch = 19)
+
+```
+
+(2)(c) (2) Test the hypothesis of independence with a two-sided test at the 5% level using the Kendall correlation coefficient.  
+
+```{r test2c}
+
+library(Kendall)
+##
+cor.test(matrix_waiting[,1],matrix_waiting[,2], alternative = "two.sided",method = "kendall", conf.level = 0.95)
+
+```
+
+##### Section 3: (15 points) ##################################
+
+##### (3)  Performing hypothesis tests using random samples is fundamental to statistical inference. The first part of this problem involves comparing two different diets. Using "ChickWeight" data available in the base R, "datasets" package, execute the following code to prepare a data frame for analysis.
+
+```{r test3}
+
+# load "ChickWeight" dataset
+data(ChickWeight)
+
+# Create T | F vector indicating observations with Time == 21 and Diet == "1" OR "3"
+index <- ChickWeight$Time == 21 & (ChickWeight$Diet == "1" | ChickWeight$Diet == "3")
+
+# Create data frame, "result," with the weight and Diet of those observations with "TRUE" "index"" values
+result <- subset(ChickWeight[index, ], select = c(weight, Diet))
+
+# Encode "Diet" as a factor
+result$Diet <- factor(result$Diet)
+str(result) 
+
+```
+
+##### The data frame, "result", has chick weights for two diets, identified as diet "1" and "3". Use the data frame, "result," to complete the following item.
+
+(3)(a) (3 points) Display two side-by-side vertical boxplots using par(mfrow = c(1,2)).  One boxplot would display diet "1" and the other diet "3". 
+
+```{r test3a}
+
+par(mfrow=c(1,2))
+
+#Diet = 1
+result_1 <- result[result$Diet == "1",]
+boxplot(result_1$weight, xlab = "Diet 1", col = "light green")
+
+#Diet = 3
+result_3 <- result[result$Diet == "3",]
+boxplot(result_3$weight, xlab = "Diet 3", col = "light blue")
+
+```
+
+(3)(b) (3 points)  Use the "weight" data for the two diets to test the null hypothesis of equal population mean weights for the two diets. Test at the 95% confidence level with a two-sided t-test. This can be done using *t.test()* in R. Assume equal variances. Display the results of t.test().
+
+```{r test3b}
+
+t.test(result_1$weight,result_3$weight,alternative = "two.sided",conf.level = 0.95)
+
+```
+
+##### Working with paired data is another common statistical activity. The "ChickWeight" data will be used to illustrate how the weight gain from day 20 to 21 may be analyzed. Use the following code to prepare pre- and post-data from Diet == "3" for analysis.
+
+```{r test3paired}
+
+# load "ChickWeight" dataset
+data(ChickWeight)
+
+# Create T | F vector indicating observations with Diet == "3"
+index <- ChickWeight$Diet == "3"
+
+# Create vector of "weight" for observations where Diet == "3" and Time == 20
+pre <- subset(ChickWeight[index, ], Time == 20, select = weight)$weight
+
+# Create vector of "weight" for observations where Diet == "3" and Time == 21
+post <- subset(ChickWeight[index, ], Time == 21, select = weight)$weight
+
+# The pre and post values are paired, each pair corresponding to an individual chick.
+cbind(pre, post)
+
+
+```
+
+(3)(c) (3 points) Present a scatterplot of the variable "post" as a function of the variable "pre".  Include a diagonal line with zero intercept and slope equal to one. Title and label the variables in this scatterplot.  
+
+```{r test3c}
+
+plot(pre,post,col="black",xlab="Pre",ylab="Post",
+main="Pre vs Post", pch=18)
+abline(0,1,col="red")
+
+```
+
+(3)(d) (6 points) Calculate and present a one-sided, 95% confidence interval for the average weight gain from day 20 to day 21. Write the code for the paired t-test and for determination of the confidence interval endpoints. **Do not use *t.test()**, although you may check your answers using this function. Present the resulting test statistic value, critical value, p-value and confidence interval.
+
+```{r test3d}
+
+a <- (post - pre)
+
+#mean 
+mean_a <-mean(a)
+#11.4
+
+#length
+l <- length(pre)
+#10
+
+#df
+df <- l - 1
+#9
+
+#critical value
+crit_value <- qt(0.05,df,lower.tail = FALSE)
+#1.833113
+
+#standard deviation
+std_deviation <- sqrt(sum((a-mean_a)^2)/(l-1))
+#11.17736
+
+#standard error
+std_error <- std_deviation/sqrt(l)
+#3.534591
+
+#t
+t <- mean_a/std_error
+#3.225267
+
+#p-value
+p_value <- pt(t,df,lower.tail = FALSE)
+#0.00520061
+
+#confidence interval
+conf_int <-mean_a - crit_value * std_error
+#4.920696
+
+row_names<-c("Mean","Length", "df", "Critical Value", "Std Deviation", "Std Error", "t", "p-value", "Confidence Interval")
+col_names<-c("Values")
+
+matrix(c(mean_a, l, df, crit_value, std_deviation, std_error, t, p_value, conf_int), nrow = 9, ncol = 1, dimnames= list(row_names,col_names))
+
+##############################
+t.test(post,pre, alternative = "greater", paired = TRUE, var.equal = TRUE, conf.level = 0.95)
+#Paired t-test
+#data:  post and pre
+#t = 3.2253, df = 9, p-value = 0.005201
+#alternative hypothesis: true difference in means is greater than 0
+#95 percent confidence interval:
+#4.920696      Inf
+#sample estimates:
+#mean of the differences 
+#                   11.4 
+
+```
+
+##### Section 4: (15 points) ##################################
+
+##### (4) Statistical inference depends on using a sampling distribution for a statistic in order to make confidence statements about unknown population parameters. The Central Limit Theorem is used to justify use of the normal distribution as a sampling distribution for statistical inference. Using Nile River flow data from 1871 to 1970, this problem demonstrates sampling distribution convergence to normality. Use the code below to prepare the data.  Refer to this example when completing (4)(c) below.
+
+```{r test4}
+
+data(Nile)
+#mean
+mean_Nile <- mean(Nile)
+#standard deviation
+std_Nile <- sd(Nile)
+
+x <- seq(from = 400, to = 1400, by = 1)
+hist(Nile, freq = FALSE, col = "gray", xlab = "River Flows", ylab = "Density of the Flow",
+     main = "Histogram of Nile River Flows from 1871 to 1970")
+curve(dnorm(x, mean = mean_Nile, sd = std_Nile), col = "red", lty = 2, lwd = 2, add = TRUE)
+
+```
+
+(4)(a) (3 points) Using Nile River flow data and the "moments" package, calculate skewness and kurtosis. Present a QQ plot and boxplot of the flow data side-by-side using *qqnorm()*, *qqline()* and *boxplot()*; *par(mfrow = c(1, 2))* may be used to locate the plots side-by-side. Add features to these displays as you choose.
+
+```{r test4a}
+
+library(moments) 
+
+#skewness 
+skew_Nile <- skewness(Nile)
+skew_Nile
+#0.3223697
+
+#kurtosis
+kurt_Nile <- kurtosis(Nile)
+kurt_Nile
+#2.695093
+
+par(mfrow=c(1,2))
+qqnorm(Nile)
+qqline(Nile)
+boxplot(Nile, col = "gray", main = "Nile Boxplot")
+
+```
+
+(4)(b) (6 points) Using *set.seed(124)* and the Nile data, generate 1000 random samples of size n = 16, with replacement. For each sample drawn, calculate and store the sample mean. This can be done with a for-loop and use of the *sample()* function. Label the resulting 1000 mean values as "sample1". **Repeat these steps using *set.seed(127)* - a different "seed" - and samples of size n = 64.** Label these 1000 mean values as "sample2". Compute and present the means, sample standard deviations and sample variances for "sample1" and "sample2" in a table with the first row for "sample1", the second row for "sample2" and the columns labled for each statistic.
+
+```{r test4b}
+#for 124 with n=16 - sample 1
+set.seed(124)
+sample1<-rep(1:1000,0)
+for(i in 1:1000) {
+  sample1[i]<-mean(sample(Nile, 16, replace=TRUE))
+}
+######################
+
+#for 127 with n=64 - sample 2
+set.seed(127)
+sample2<-rep(1:1000,0)
+
+for(i in 1:1000) {
+  sample2[i]<-mean(sample(Nile, 64, replace = TRUE))
+}
+######################
+
+row_names<-c("Sample 1","Sample 2")
+col_names<-c("Mean","St. Dev.","Variance")
+#mean, standard deviation & variance 
+matrix(c(mean(sample1), mean(sample2), sd(sample1), sd(sample2), var(sample1), var(sample2)), nrow = 2, ncol = 3, dimnames= list(row_names,col_names))
+
+```
+
+(4)(c) (6 points) Present side-by-side histograms of "sample1" and "sample2" with the normal density curve superimposed. To prepare comparable histograms, it will be necessary to use "freq = FALSE" and to maintain the same x-axis with "xlim = c(750, 1050)", and the same y-axis with "ylim = c(0, 0.025)." **To superimpose separate density functions, you will need to use the mean and standard deviation for each "sample" - each histogram - separately.** 
+
+```{r test4c}
+
+par(mfrow=c(1,2))
+
+hist(sample1, freq = FALSE, xlim = c(750, 1050), ylim = c(0, 0.025), col = "gray", main = "Histogram of Sample 1", xlab = "Sample 1")
+curve(dnorm(x, mean = mean(sample1), sd = sd(sample1)), add=TRUE, col="dark red", lty=3, lwd=3)
+
+hist(sample2, freq = FALSE, xlim = c(750, 1050), ylim = c(0, 0.025), col = "gray", main = "Histogram of Sample 2", xlab = "Sample 2")
+curve(dnorm(x, mean = mean(sample2), sd = sd(sample2)), add=TRUE, col="dark red", lty=3, lwd=3)
+
+```
+
+-----
+
+##### Section 5: (15 points) ##################################
+
+##### (5)  This problem deals with contingency table analysis. This is an example of categorical data analysis (see Kabacoff, pp. 145-151). The "warpbreaks" dataset gives the number of warp breaks per loom, where a loom corresponds to a fixed length of yarn.  There are 54 observations on 3 variables: breaks	(numeric, the number of breaks), wool (factor, type of wool: A or B), and tension (factor, low L, medium M and high H).  These data have been studied and used for example elsewhere.  For the purposes of this problem, we will focus on the relationship between breaks and tension using contingency table analysis.
+
+(5)(a)(4.5 points) warpbreaks is part of the "datasets" package and may be loaded via *data(warpbreaks)*.  Load "warpbreaks" and present the structure using *str()*. Calculate the median number of breaks for the entire dataset, disregarding "tension" and "wool". Define this median value as "median_breaks". Present a histogram of the number of breaks with the location of the median indicated.
+
+Create a new variable "number" as follows:  for each value of "breaks", classify the number of breaks as either strictly below "median_breaks", or the alternative. Convert the "above"|"below" classifications to a factor, and combine with the dataset warpbreaks.  Present a summary of the augmented dataset using *summary()*.  Present a contingency table of the frequency of breaks using the two variables "tension" and "number".  There should be six cells in this table.
+
+```{r test5a}
+#exploratory
+data(warpbreaks)
+summary(warpbreaks)
+str(warpbreaks)
+#54 rows, 3 columns
+
+#calculate median with only $breaks
+median_breaks <- median(warpbreaks$breaks)
+median_breaks
+#median is 26
+
+#plot histogram with median
+hist(warpbreaks$breaks, main = "Histogram of Breaks", xlab = "Breaks")
+abline(v= median(warpbreaks$breaks), col="red", lty= 3, lwd= 2)
+
+#"above" & "below" classification
+warpbreaks$number <-ifelse(warpbreaks$breaks<median_breaks,"below","above")
+warpbreaks$number
+
+#contingency table with $tension and $number 
+contingency_table <- table(warpbreaks$tension,warpbreaks$num)
+contingency_table
+# 3x2 = 6 cells total
+```
+
+(5)(b)(3 points)  Using the table constructed in (5)(a), test at the 5% level the null hypothesis of independence using the uncorrected *chisq.test()* (Black, Business Statistics, Section 16.2). Show the results of this test and state your conclusions. 
+
+```{r test5b}
+
+#chi-square test on contingency table
+chisq.test(contingency_table)
+
+```
+
+
+(5)(c) (7.5 points) Write a function that computes the uncorrected Pearson Chi-squared statistic.   Apply your function to the table from (5)(a). You should be able to duplicate the X-squared value (chi-squared) and *p*-value. Present both.
+
+Shown below are examples of the type of function required.  These examples will have to be modified to accomodate the table generated in (5)(a).  
+
+```{r test5c}
+
+chi <- function(x) {
+# To be used with 2x2 contingency tables that have margins added.
+# Expected values are calculated.
+     e11 <- x[4,1]*x[1,3]/x[4,3]
+     e12 <- x[4,2]*x[1,3]/x[4,3]
+     e21 <- x[4,1]*x[2,3]/x[4,3]
+     e22 <- x[4,2]*x[2,3]/x[4,3]
+     e31 <- x[4,1]*x[3,3]/x[4,3]
+     e32 <- x[4,2]*x[3,3]/x[4,3]
+   
+# Value of chi square statistic is calculated.
+     chisqStat <- (x[1,1] - e11)^2 / e11 + (x[1,2] - e12)^2 / e12 + (x[2,1] -        e21)^2 / e21 + (x[2,2] - e22)^2 / e22 + (x[3,1] - e31)^2 / e31 +              (x[3,2] - e32)^2 / e32
+     return(list("chi-squared" = chisqStat, 
+                 "p-value" = pchisq(chisqStat, 2, lower.tail = F)))
+}
+
+b <- addmargins(contingency_table)
+chi(b)
+
+#########
+chisqfun <- function(t) {
+   x <- addmargins(t)
+   e <- matrix(0, nrow = nrow(t), ncol = ncol(t), byrow = T)
+   r <- matrix(0, nrow = nrow(t), ncol = ncol(t), byrow = T)
+   for (i in 1:3) {
+       for (j in 1:2) {
+          e[i,j] = x[nrow(x),j] * x[i,ncol(x)]/x[nrow(x), ncol(x)]
+         r[i,j] = ((x[i,j] - e[i,j])^2)/e[i,j]
+         }
+     }
+  chi <- sum(r)
+  xdf <- nrow(t) - 1
+  pv <- pchisq(chi, df = xdf, lower.tail = FALSE) 
+ return(cat("Pearson's Chi-squared test \\n","Chi sq: ", chi, "; 
+            Degree of Freedom :",xdf," ; P-value :",pv))
+}
+
+chisqfun(contingency_table)
+
+```
