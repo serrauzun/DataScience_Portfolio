@@ -18,7 +18,7 @@ Please click on the course name for overview and access the folder with work sam
 ## Portfolio Overview
 ### [Practical Machine Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Practical%20Machine%20Learning)
 #### Home Equity Line of Credit
-This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
+Conducted Principal Component Analysis for dimensional reduction then used Decision Tree, Random Forest, Gradient Boosting, Linear and Logistic Regression and Neural Networks (Tensor Flow) techniques on Home Equity Line of Credit dataset to developed two models, one that predicts the probability of default and other that predicts the loss amount assuming the loan defaults. Ran a ROC comparison between three based, regression and NN to determine optimal model. Achieved over 90% accuracy in loan default and loss amount predictions.
 
 ![Decision Tree](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Decision%20Tree_A.png)
 
