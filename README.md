@@ -8,7 +8,7 @@ Please click on the course name for overview and access the folder with work sam
 - Decision Analytics
 - Project Management
 - [Applied Statistics with R](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Applied%20Statistics)
-- [Practical Machine Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Practical%20Machine%20Learning)
+- [Practical Machine Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/README.md#practical-machine-learning)
 - [Python for Data Science](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Python%20for%20DS)
 - [Supervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Supervised%20Learning)
 - [Unsupervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning)
@@ -16,5 +16,4 @@ Please click on the course name for overview and access the folder with work sam
 - Capstone Project (in progress)
 
 ## Portfolio Overview
-### Practical Machine Learning
-
+### [Practical Machine Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Practical%20Machine%20Learning)
