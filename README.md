@@ -22,7 +22,7 @@ The project involved conducting unsupervised learning method like Principal Comp
 
 Decision Tree             |  ROC Curve Comparison Plot
 :-------------------------:|:-------------------------:
-![Decision Tree](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Decision%20Tree_F.png)  |  ![Comparison](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Screenshot%202021-03-21%20at%2016.39.01.png)
+![Decision Tree](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Decision%20Tree_F.png)  |  ![Comparison](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Unknown.png)
 
 #### [Image Recognition with Fashion MNIST data](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Practical%20Machine%20Learning/TensorFlow)
 Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. The project required to build a computer vision model using keras that will predict the label class of the item of clothing through the image with approximately 90% accuracy. 
@@ -32,12 +32,6 @@ Fashion-MNIST is a dataset of Zalando's article images—consisting of a trainin
 ### [Supervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Supervised%20Learning)
 #### Ames Aiwa Housing 
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
-
-Multiple Linear Regression             |  Scatter Plots
-:-------------------------:|:-------------------------:
-![MLR](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/mlr%20with%20raw.jpeg)  |  ![Scatter](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Scatter%20plots%20sf%20and%20garage.jpeg)
-
-![alt-text-1](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/mlr%20with%20raw.jpeg "title-1") ![alt-text-2](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Scatter%20plots%20sf%20and%20garage.jpeg "title-2")
 
 #### Binary Classification 
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
