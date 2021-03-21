@@ -20,9 +20,9 @@ Please click on the course name for overview and access the folder with work sam
 #### Home Equity Line of Credit
 The project involved conducting unsupervised learning method like Principal Component Analysis for dimensional reduction, followed by numerous supervised learning models such as Decision Tree, Random Forest, Gradient Boosting, Linear and Logistic Regression and Neural Networks (Tensor Flow) to predict the probability of default credit and loss amount assuming loan defaults. Finally ran a ROC comparison between three based, regression and NN to determine optimal model. Achieved over 95% accuracy in loan default and loss amount predictions.
 
-Image 1             |  Image 2
+Decision Tree             |  ROC Curve Plot
 :-------------------------:|:-------------------------:
-![Decision Tree](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Decision%20Tree_F.png)  |  ![Decision Tree](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Decision%20Tree_F.png)
+![Decision Tree](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Decision%20Tree_F.png)  |  ![Comparison](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Screenshot%202021-03-21%20at%2016.39.01.png)
 
 
 #### Image Recognition with Fashion MNIST data
