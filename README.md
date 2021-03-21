@@ -20,6 +20,8 @@ Please click on the course name for overview and access the folder with work sam
 #### Home Equity Line of Credit
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
 
+![Decision Tree](Decision Tree_A.png)
+
 #### Image Recognition with Fashion MNIST data
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
 
