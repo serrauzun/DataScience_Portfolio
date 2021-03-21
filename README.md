@@ -1,6 +1,5 @@
 # Academic Portfolio
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
-
 Please click on the course name for overview and access the folder with work samples. 
 
 - Mathematics
@@ -16,8 +15,6 @@ Please click on the course name for overview and access the folder with work sam
 - [Marketing Analytics](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics)
 - Capstone Project (in progress)
 
-# Academic Portfolio
-## Academic Portfolio
-### Academic Portfolio
+## Portfolio Overview
+### Practical Machine Learning
 
-**bold text**
