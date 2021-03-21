@@ -8,8 +8,8 @@ Please click on the course name for overview and access the folder with work sam
 - Decision Analytics
 - Project Management
 - [Practical Machine Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/README.md#practical-machine-learning)
-- [Supervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/README.md#supervised-learning)
 - [Unsupervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/README.md#unsupervised-learning)
+- [Supervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/README.md#supervised-learning)
 - [Marketing Analytics](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/README.md#marketing-analytics)
 - [Applied Statistics with R](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/README.md#applied-statistics-with-r)
 - [Python for Data Science](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/README.md#python-for-data-science)
@@ -27,9 +27,29 @@ Fashion-MNIST is a dataset of Zalando's article images—consisting of a trainin
 
 --
 
-### [Supervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Supervised%20Learning)
-#### Ames Aiwa Housing 
+### [Unsupervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning)
+#### Stock Portfolio Returns
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
+
+![US1](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/unsupervised1.png)
+
+#### EU Employment Clustering 
+This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
+
+![US2](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/unsupervised%202.png)
+
+#### Ames Iowa Housing  
+This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
+
+![USF](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/unsupervised%20final.png)
+
+--
+
+### [Supervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Supervised%20Learning)
+#### Ames Iowa Housing 
+This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
+
+![Ames](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Ames1.png)
 
 #### Binary Classification 
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
@@ -37,9 +57,7 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 #### Count Data - Office visits
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
 
---
 
-### [Unsupervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning)
 ### [Marketing Analytics](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics)
 ### [Applied Statistics with R](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Applied%20Statistics)
 ### [Python for Data Science](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Python%20for%20DS)
