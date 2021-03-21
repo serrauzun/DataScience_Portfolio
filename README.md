@@ -31,9 +31,11 @@ Fashion-MNIST is a dataset of Zalando's article images—consisting of a trainin
 
 ### [Supervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Supervised%20Learning)
 #### Ames Aiwa Housing 
-This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.  
+This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
 
-![Decision Tree](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Decision%20Tree_F.png)  |  ![Comparison](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Screenshot%202021-03-21%20at%2016.39.01.png)
+Multiple Linear Regression             |  Scatter Plots
+:-------------------------:|:-------------------------:
+![MLR](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/mlr%20with%20raw.jpeg)  |  ![Scatter](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Scatter%20plots%20sf%20and%20garage.jpeg)
 
 
 #### Binary Classification 
