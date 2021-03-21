@@ -28,17 +28,17 @@ Fashion-MNIST is a dataset of Zalando's article images—consisting of a trainin
 --
 
 ### [Unsupervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning)
-#### Stock Portfolio Returns
+#### [Stock Portfolio Returns](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning/PCA%20and%20t-SNE)
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
 
 ![US1](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/unsupervised1.png)
 
-#### EU Employment Clustering 
+#### [EU Employment Clustering](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning/Hierarchical%20and%20k-Means%20Clustering)
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
 
 ![US2](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/unsupervised%202.png)
 
-#### Ames Iowa Housing  
+#### [Ames Iowa Housing](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning/AmesHousing_FinalProject)
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
 
 ![USF](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/unsupervised%20final.png)
@@ -46,7 +46,7 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 --
 
 ### [Supervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Supervised%20Learning)
-#### Ames Iowa Housing 
+#### Ames Iowa Housing
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
 
 ![Ames](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Ames1.png)
@@ -60,15 +60,15 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 --
 
 ### [Marketing Analytics](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics)
-#### Market Segmentation
+#### [Market Segmentation](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Market%20Segmentation%20(Clustering))
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
 
-#### Conjoint Measurement and Choice Modeling
+#### [Conjoint Measurement and Choice Modeling](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Conjoint%20Measurement%20and%20Choice%20Modeling%20(MCMC))
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
 
 ![solo2](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo2.png)
 
-#### Customer Segmentation and Target Marketting
+#### [Customer Segmentation and Target Marketting](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Customer%20Segmentation%20and%20Target%20Marketing%20(LR%26RF))
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.a
 
 ![solo3](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo3.png)
