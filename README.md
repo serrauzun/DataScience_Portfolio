@@ -3,13 +3,18 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 
 Please click on the course name for overview and access the folder with work samples. 
 
-- Mathematics                               - [Applied Statistics with R](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Applied%20Statistics)
-- Introduction to Data Science              - [Practical Machine Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Practical%20Machine%20Learning)
-- Database Systems and Data Preparation     - [Python for Data Science](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Python%20for%20DS)
-- Project Management                        - [Supervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Supervised%20Learning)
-- Decision Analytics                        - [Unsupervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning)
-- Capstone Project (in progress)            - [Marketing Analytics](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics)
-
+- Mathematics
+- Introduction to Data Science
+- Database Systems and Data Preparation
+- Decision Analytics
+- Project Management
+- [Applied Statistics with R](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Applied%20Statistics)
+- [Practical Machine Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Practical%20Machine%20Learning)
+- [Python for Data Science](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Python%20for%20DS)
+- [Supervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Supervised%20Learning)
+- [Unsupervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning)
+- [Marketing Analytics](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics)
+- Capstone Project (in progress)
 
 # Academic Portfolio
 ## Academic Portfolio
