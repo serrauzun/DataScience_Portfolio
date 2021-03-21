@@ -37,6 +37,7 @@ Multiple Linear Regression             |  Scatter Plots
 :-------------------------:|:-------------------------:
 ![MLR](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/mlr%20with%20raw.jpeg)  |  ![Scatter](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Scatter%20plots%20sf%20and%20garage.jpeg)
 
+![alt-text-1](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/mlr%20with%20raw.jpeg "title-1") ![alt-text-2](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/Scatter%20plots%20sf%20and%20garage.jpeg "title-2")
 
 #### Binary Classification 
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
