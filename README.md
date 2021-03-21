@@ -1,4 +1,4 @@
-# Academic Portfolio
+# Academic Portfolio - Selected Work Samples
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
 Please click on the course name for overview and access the folder with work samples. 
 
@@ -57,8 +57,23 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 #### Count Data - Office visits
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
 
+--
 
 ### [Marketing Analytics](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics)
+#### Market Segmentation
+This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
+
+#### Conjoint Measurement and Choice Modeling
+This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
+
+![solo2](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo2.png)
+
+#### Customer Segmentation and Target Marketting
+This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
+
+![solo3](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo3.png)
+
 ### [Applied Statistics with R](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Applied%20Statistics)
+
 ### [Python for Data Science](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Python%20for%20DS)
 
