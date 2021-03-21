@@ -25,7 +25,7 @@ The project involved conducting unsupervised learning method like Principal Comp
 #### [Image Recognition with Fashion MNIST data](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Practical%20Machine%20Learning/TensorFlow)
 Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. The project required to build a computer vision model using keras that will predict the label class of the item of clothing through the image with approximately 90% accuracy. 
 
---
+---
 
 ### [Unsupervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning)
 #### [Stock Portfolio Returns](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning/PCA%20and%20t-SNE)
@@ -43,7 +43,7 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 
 ![USF](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/unsupervised%20final.png)
 
---
+---
 
 ### [Supervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Supervised%20Learning)
 #### Ames Iowa Housing
@@ -57,7 +57,7 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 #### Count Data - Office visits
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
 
---
+---
 
 ### [Marketing Analytics](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics)
 #### [Market Segmentation](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Market%20Segmentation%20(Clustering))
@@ -73,7 +73,11 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 
 ![solo3](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo3.png)
 
+---
+
 ### [Applied Statistics with R](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Applied%20Statistics)
+
+---
 
 ### [Python for Data Science](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Python%20for%20DS)
 
