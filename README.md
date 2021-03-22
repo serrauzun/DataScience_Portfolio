@@ -81,6 +81,8 @@ The project involved using data from the past 16 marketing campaigns and purchas
 ### [Applied Statistics with R](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Applied%20Statistics)
 The coursework includes evaluating statistical information, performing data analyses, and interpreting and communicating analytical results. Topics covered include descriptive statistics, central tendency, exploratory data analysis, probability theory, discrete and continuous distributions, statistical inference, correlation, multiple linear regression, contingency tables, and chi-square tests. Selected contemporary statistical concepts, such as bootstrapping, are introduced to supplement traditional statistical methods.
 
+![abalones](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/abalones1.png)
+
 ---
 
 ### [Python for Data Science](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Python%20for%20DS)
