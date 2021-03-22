@@ -18,7 +18,7 @@ Please click on the course name for overview and access the folder with work sam
 ## Portfolio Overview
 ### [Practical Machine Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Practical%20Machine%20Learning)
 #### Home Equity Line of Credit
-The project involved conducting unsupervised learning method like Principal Component Analysis and k-Means Clustering, followed by numerous supervised learning models such as Decision Tree, Random Forest, Gradient Boosting, Linear and Logistic Regression and Neural Networks (Tensor Flow) to predict the probability of default credit and loss amount assuming loan defaults. Finally ran a ROC comparison between three based, regression and NN to determine optimal model. Achieved over 95% accuracy in loan default and loss amount predictions.
+The HMEQ project involved conducting unsupervised learning method like Principal Component Analysis and k-Means Clustering, followed by numerous supervised learning models such as Decision Tree, Random Forest, Gradient Boosting, Linear and Logistic Regression and Neural Networks (Tensor Flow) to predict the probability of default credit and loss amount assuming loan defaults. Finally ran a ROC comparison between three based, regression and NN to determine optimal model. Achieved over 95% accuracy in loan default and loss amount predictions.
 
 ![Practical](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/practical1.png)
 
@@ -27,7 +27,7 @@ Fashion-MNIST is a dataset of Zalando's article images—consisting of a trainin
 
 ---
 
-### [Unsupervised Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning)
+### [Unsupervised Learning Models](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning)
 #### [Stock Portfolio Returns](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Unsupervised%20Learning/PCA%20and%20t-SNE)
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports. 
 
@@ -81,3 +81,8 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 
 ### [Python for Data Science](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Python%20for%20DS)
 
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
