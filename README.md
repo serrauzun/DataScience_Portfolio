@@ -69,7 +69,7 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 ![solo2](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo2.png)
 
 #### [Customer Segmentation and Target Marketting](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Customer%20Segmentation%20and%20Target%20Marketing%20(LR%26RF))
-This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.a
+This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
 
 ![solo3](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo3.png)
 
@@ -83,4 +83,4 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 
 | Header 1  | Header 2 |
 | --------  | -------- |
-| data      | Some long data that <br /> spans multiple lines |
+| This repository consists of academic projects completed<br /> between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program <br />at Northwestern University. The work samples include Python and R <br />coding samples, supervised and unsupervised models and their <br />associated final analysis reports.a      | Some long data that <br /> spans multiple lines |
