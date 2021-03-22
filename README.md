@@ -83,4 +83,4 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 
 | Header 1  | Header 2 |
 | --------  | -------- |
-| This repository consists of academic projects completed<br /> between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program <br />at Northwestern University. The work samples include Python and R <br />coding samples, supervised and unsupervised models and their <br />associated final analysis reports.a      | Some long data that <br /> spans multiple lines |
+| This repository consists of academic projects completed<br /> between Fall 2019 and Spring 2021 throughout the Master of Science <br /> in Data Science program at Northwestern University. The work samples <br />include Python and R coding samples, supervised and <br />unsupervised models and their associated final analysis reports. <br />![solo3](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo3.png) | Some long data that <br /> spans multiple lines |
