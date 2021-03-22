@@ -63,25 +63,25 @@ Poisson (with and without dispersion), Negative Binomial, Hurdle and Zero-Inflat
 ---
 
 ### [Marketing Analytics](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics)
-#### [Market Segmentation](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Market%20Segmentation%20(Clustering))
-This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
+#### [Market Segmentation for App Happy](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Market%20Segmentation%20(Clustering))
+The App Happy Company wants to better understand what they believe is the market for a new social entertainment app they are developing. App Happy hired the Consumer Spy Corporation (CSC) to survey consumers in the market. CSC collected data from a sample of consumers and provided App Happy with a dataset of their responses. The project involved taking the survey responses and conducting clustering to perform a general attitudinal post hoc segmentation analysis and develop a segmentation scheme. The scheme's segments were profiled, and recommendations were made about the product opportunities through the outcome of the analysis. 
 
-#### [Conjoint Measurement and Choice Modeling](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Conjoint%20Measurement%20and%20Choice%20Modeling%20(MCMC))
-This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
+#### [Conjoint Measurement and Choice Modeling for Star Technology Company](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Conjoint%20Measurement%20and%20Choice%20Modeling%20(MCMC))
+The survey results from the choice-based conjoint (CBC) task we used to conduct Hierarchical Bayes (HB) Multinomial Logit (MNL) and Markov Chain Monte Carlo Simulation to estimate the effects of attributes in order to make product recommendations to the product development team on the remote control model they should go to market with. 
 
 ![solo2](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo2.png)
 
 #### [Customer Segmentation and Target Marketting](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Customer%20Segmentation%20and%20Target%20Marketing%20(LR%26RF))
-This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
+The project involved using data from the past 16 marketing campaigns and purchased demographic and geographic data to come-up with a targeting strategy for the next mail campaign. Through feature engineering and Random Forest and Logistic regression models, customer segmentation and targeted marketing approach were outlined to improve the mail campaign response rate.  
 
 ![solo3](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo3.png)
 
 ---
 
 ### [Applied Statistics with R](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Applied%20Statistics)
-This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
+The coursework includes evaluating statistical information, performing data analyses, and interpreting and communicating analytical results. Topics covered include descriptive statistics, central tendency, exploratory data analysis, probability theory, discrete and continuous distributions, statistical inference, correlation, multiple linear regression, contingency tables, and chi-square tests. Selected contemporary statistical concepts, such as bootstrapping, are introduced to supplement traditional statistical methods.
 
 ---
 
 ### [Python for Data Science](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Python%20for%20DS)
-This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
+The coursework includes demonstration of data representation strategies, showing how data structures are implemented in Python and demonstrating tools for data science and software engineering. Working on data analysis problems, students employ various programming paradigms, including functional programming, object-oriented programming, and data stream processing. 
