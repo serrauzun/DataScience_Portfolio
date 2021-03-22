@@ -61,7 +61,7 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 
 ### [Marketing Analytics](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics)
 #### [Market Segmentation](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Market%20Segmentation%20(Clustering))
-This repository consists of academic projects completed between Fall 2019 <br/> ![solo2](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/kmeans.jpeg) and Spring 2021 throughout the Master of Science in Data Science <br/> program at Northwestern University. The work samples include Python and <br/>R coding samples, supervised and unsupervised models and their associated <br/> final analysis reports.
+This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
 
 #### [Conjoint Measurement and Choice Modeling](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Conjoint%20Measurement%20and%20Choice%20Modeling%20(MCMC))
 This repository consists of academic projects completed between Fall 2019 and Spring 2021 throughout the Master of Science in Data Science program at Northwestern University. The work samples include Python and R coding samples, supervised and unsupervised models and their associated final analysis reports.
