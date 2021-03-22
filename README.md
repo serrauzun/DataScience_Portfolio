@@ -82,7 +82,6 @@ This repository consists of academic projects completed between Fall 2019 and Sp
 ### [Python for Data Science](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Python%20for%20DS)
 
 
-| Syntax | Description |
+| [Market Segmentation](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Market%20Segmentation%20(Clustering)) | [Conjoint Measurement and Choice Modeling](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Conjoint%20Measurement%20and%20Choice%20Modeling%20(MCMC)) | [Customer Segmentation and Target Marketting](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Customer%20Segmentation%20and%20Target%20Marketing%20(LR%26RF))
 | ----------- | ----------- |
 | Header | Title |
-| Paragraph | Text |
