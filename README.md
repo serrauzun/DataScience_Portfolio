@@ -20,7 +20,7 @@ Please click on the course name for overview and access the folder with work sam
 ## Portfolio Overview
 ### [Practical Machine Learning](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Practical%20Machine%20Learning)
 #### Home Equity Line of Credit
-<img align="right" src="The HMEQ project involved conducting unsupervised learning method like Principal Component Analysis and k-Means Clustering, followed by numerous supervised learning models such as Decision Tree, Random Forest, Gradient Boosting, Linear and Logistic Regression and Neural Networks (Tensor Flow) to predict the probability of default credit and loss amount assuming loan defaults. Finally ran a ROC comparison between three based, regression and NN to determine optimal model. Achieved over 95% accuracy in loan default and loss amount predictions."> 
+The HMEQ project involved conducting unsupervised learning method like Principal Component Analysis and k-Means Clustering, followed by numerous supervised learning models such as Decision Tree, Random Forest, Gradient Boosting, Linear and Logistic Regression and Neural Networks (Tensor Flow) to predict the probability of default credit and loss amount assuming loan defaults. Finally ran a ROC comparison between three based, regression and NN to determine optimal model. Achieved over 95% accuracy in loan default and loss amount predictions.
 
 ![Practical](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/practical1.png)
 
