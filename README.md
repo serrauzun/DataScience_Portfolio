@@ -71,7 +71,7 @@ The survey results from the choice-based conjoint (CBC) task we used to conduct 
 
 ![solo2](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo2.png)
 
-#### [Customer Segmentation and Target Marketting](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Customer%20Segmentation%20and%20Target%20Marketing%20(LR%26RF))
+#### [Customer Segmentation and Target Marketing](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/tree/main/Marketing%20Analytics/Customer%20Segmentation%20and%20Target%20Marketing%20(LR%26RF))
 The project involved using data from the past 16 marketing campaigns and purchased demographic and geographic data to come-up with a targeting strategy for the next mail campaign. Through feature engineering and Random Forest and Logistic regression models, customer segmentation and targeted marketing approach were outlined to improve the mail campaign response rate.  
 
 ![solo3](https://github.com/serrauzun/NorthwesternMSDS_Portfolio/blob/main/images/solo3.png)
